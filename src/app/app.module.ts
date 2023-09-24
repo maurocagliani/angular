@@ -7,6 +7,8 @@ import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
+import { RoundedBlockDirective } from './directives/rounded-block.directive';
+import { ListaDeUsuariosComponent } from './lista-de-usuarios/lista-de-usuarios.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
     SidebarComponent,
     FooterComponent,
     ToolbarComponent,
+    RoundedBlockDirective,
+    ListaDeUsuariosComponent,
 
  ],
   imports: [

@@ -1,7 +1,9 @@
 <app-toolbar></app-toolbar>
 <app-page-wrapper>
-    <h1>fly the moon</h1>
-    <p>Tengo pensado que la institución sea de aviación. Donde hay Instructores(profesores) y alumnos que se pueden inscribir a cursos de distintos aviones.</p>
+    <h1>{{ title }} </h1>
+    <!-- <p [ngStyle]="getBackgroundColor()">Tengo pensado que la institución sea de aviación. Donde hay Instructores(profesores) y alumnos que se pueden inscribir a cursos de distintos aviones.</p>
+    <div class="container" [ngClass]="{'container--red': enabled, 'container--blue': !enabled}"> -->
+<app-lista-de-usuarios></app-lista-de-usuarios>
 </app-page-wrapper>
 <app-sidebar></app-sidebar>
 <app-footer></app-footer>
