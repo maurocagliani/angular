@@ -1,5 +1,5 @@
 <ul>
-    <li [ngStyle]="{baackgroundColor: alumno.aprobado ? 'green' : 'red'}" *ngFor="let alumno of alumnos">
+    <li [ngStyle]="{backgroundColor: alumno.aprobado ? 'green' : 'red'}" *ngFor="let alumno of alumnos">
         {{ alumno.nombre | uppercase}} - {{alumno.fechaInsc | date}}
 
     </li>
